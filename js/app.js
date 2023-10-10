@@ -68,18 +68,18 @@ var Game = class {
 
 		// settings
 		this.version = '1.3.2';
-		this.base_cols = 14;
-		this.base_rows = 11;
-		this.max_cols = 35;
-		this.max_rows = 32;
+		this.base_cols = 15;
+		this.base_rows = 12;
+		this.max_cols = 36;
+		this.max_rows = 33;
 		this.debug = false;
 		this.save_debug = false;
 		this.offline_tick =true;
-		this.base_loop_wait = 1000;
+		this.base_loop_wait = 500;
 		this.base_power_multiplier = 1;
 		this.base_heat_multiplier = 4;
 		this.base_manual_heat_reduce = 1;
-		this.upgrade_max_level = 32;
+		this.upgrade_max_level = 99;
 		this.base_max_heat = 1000;
 		this.base_max_power = 100;
 		this.base_money = 10;
